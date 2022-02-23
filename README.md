@@ -7,7 +7,6 @@
 ## notes
 
 - password: Mssqltest123
-- sqlcmd -S localhost -U SA -P Mssqltest123
 
 **setup**
 
