@@ -8,3 +8,19 @@
 
 - password: Mssqltest123
 - sqlcmd -S localhost -U SA -P Mssqltest123
+
+**setup**
+
+```bash
+sudo systemctl enable mssql-server.service
+sudo systemctl start mssql-server.service
+sudo systemctl status mssql-server.service
+sqlcmd -S localhost -U SA -P Mssqltest123
+```
+
+**cleanup**
+
+```bash
+sudo systemctl disable mssql-server.service
+sudo systemctl stop mssql-server.service
+```
