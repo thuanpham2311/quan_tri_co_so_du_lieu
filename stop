@@ -2,3 +2,4 @@
 
 sudo systemctl disable mssql-server.service
 sudo systemctl stop mssql-server.service
+sudo systemctl --no-pager status mssql-server.service

@@ -3,6 +3,8 @@
 sudo systemctl enable mssql-server.service
 sudo systemctl start mssql-server.service
 
+sudo systemctl --no-pager status mssql-server.service
+
 # Wait for the server to start
 sleep 5
 
