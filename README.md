@@ -2,7 +2,7 @@
 
 ## môi trường cài đặt
 
-- Manjaro Linux (gnome version latest)
+- Manjaro Linux (using shell script in command line)
 
 ## notes
 
